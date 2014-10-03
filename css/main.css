@@ -30,6 +30,12 @@ img {
     width: 100%;
 }
 
+.gutter { 
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
 header {
     background-color: #DDDDDD;
     overflow: hidden;
@@ -49,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 30em) {
     
     nav li {
         display: inline-block;
@@ -59,16 +65,6 @@ a {
         text-align: center;
     }
 }
-
-@media only screen and (min-width: 40em) {
     
-    h1 { 
-        float: left;
-    }
+
     
-    nav { 
-        float: left;
-    }  
-}
-
-
