@@ -36,12 +36,12 @@ img {
     padding-top: 1em;
 }
 
-header {
+.header {
     background-color: #DDDDDD;
     overflow: hidden;
 }
 
-h1 {
+.title {
     margin: 0;
     text-align: center;
 }
@@ -64,7 +64,24 @@ a {
     nav { 
         text-align: center;
     }
+    
 }
+
+@media only screen and (min-width: 40em) {
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav { 
+        text-align: center;
+    }
+    
+    .title {
+        text-align: left;
+    }
+}
+    
     
 
     
