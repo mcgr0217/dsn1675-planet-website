@@ -30,14 +30,8 @@ img {
     width: 100%;
 }
 
-.gutter { 
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-}
-
 .header {
-    background-color: #DDDDDD;
+    background-color: #CCC;
     overflow: hidden;
 }
 
@@ -49,6 +43,7 @@ img {
 .nav {
     padding: 0;
     color: #0074D9;
+    list-style: none;
 }
 
 a {
@@ -87,14 +82,23 @@ a {
     text-align: center;
     font-weight: 500;
 }
-
-footer {
+.footer {
     background-color: #ccc;
 }
 
-grid {
+.color {
     background-color: #e2e2e2;
 }
+
+.light {
+    background-color: #efefef;
+}
+
+.title2 {
+    text-align: center;
+    background-color: #efefef;
+}
+
     
     
     
