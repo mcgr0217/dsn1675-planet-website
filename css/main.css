@@ -21,7 +21,6 @@ html {
     html {
         font-size: 110%;
     }
-    
 }
 
 @media only screen and (min-width: 90em) {
@@ -99,6 +98,14 @@ a {
     .title {
         text-align: left;
     }
+    
+    .footer {
+        text-align: right;
+    }
+        
+    .copyright {
+        text-align: left;
+    }
 }
 
 .banner {
@@ -106,8 +113,10 @@ a {
     text-align: center;
     font-weight: 500;
 }
+
 .footer {
     background-color: #ccc;
+    font-weight: 400;
 }
 
 .color {
@@ -123,7 +132,32 @@ a {
     background-color: #efefef;
 }
 
+@media only screen and (min-width: 60em) {
     
+        dl {
+        overflow: hidden;
+    }
+        dt {
+        float: left;
+        clear: left;
+        width: 8rem;
+    }
+
+        dd {
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+}
+
+.copyright {
+    background-color: #ccc;
+    font-weight: 400;
+}
+
+.moon {
+    background-color: #efefef;
+}
     
     
     
