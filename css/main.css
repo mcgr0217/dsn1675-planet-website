@@ -16,6 +16,30 @@ html {
     text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -50,7 +74,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 25em) {
     
     nav li {
         display: inline-block;
@@ -62,7 +86,7 @@ a {
     
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
     
     nav li {
         display: inline-block;
@@ -99,6 +123,7 @@ a {
     background-color: #efefef;
 }
 
+    
     
     
     
