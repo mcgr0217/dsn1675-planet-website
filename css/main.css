@@ -73,6 +73,43 @@ a {
     text-decoration: none;
 }
 
+.copyright {
+    background-color: #ccc;
+    font-weight: 400;
+}
+
+.moon {
+    background-color: #efefef;
+}
+
+.discovery {
+    background-color: #efefef;
+}
+
+.banner {
+    background-color: #E2E2E2;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #ccc;
+    font-weight: 400;
+}
+
+.color {
+    background-color: #e2e2e2;
+}
+
+.light {
+    background-color: #efefef;
+}
+
+.title2 {
+    text-align: center;
+    background-color: #efefef;
+}
+
 @media only screen and (min-width: 25em) {
     
     nav li {
@@ -108,30 +145,6 @@ a {
     }
 }
 
-.banner {
-    background-color: #E2E2E2;
-    text-align: center;
-    font-weight: 500;
-}
-
-.footer {
-    background-color: #ccc;
-    font-weight: 400;
-}
-
-.color {
-    background-color: #e2e2e2;
-}
-
-.light {
-    background-color: #efefef;
-}
-
-.title2 {
-    text-align: center;
-    background-color: #efefef;
-}
-
 @media only screen and (min-width: 60em) {
     
         dl {
@@ -149,22 +162,3 @@ a {
             padding: 0;
         }
 }
-
-.copyright {
-    background-color: #ccc;
-    font-weight: 400;
-}
-
-.moon {
-    background-color: #efefef;
-}
-
-.discovery {
-    background-color: #efefef;
-}
-    
-    
-    
-    
-
-    
