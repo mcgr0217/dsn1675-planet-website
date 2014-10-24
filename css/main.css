@@ -33,7 +33,8 @@ a:focus {
     background-color: red;
     color: beige;
     padding: 0.5em 0.75em;
-    font-weight: bold;
+    font-weight: 1.25em;
+    text-decoration: none;
 }
 
 .skip-links a:focus {
@@ -92,6 +93,10 @@ img {
     padding: 0;
     color: #0074D9;
     list-style: none;
+}
+
+.nav a {
+    display: inline-block;
 }
 
 a {
