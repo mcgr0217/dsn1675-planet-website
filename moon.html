@@ -11,13 +11,18 @@
 </head>
 <body>
     
-    <header class="header">
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to moons</a></li>
+        <li><a href="#main">Skip to the main content</a></li>
+    </ul>
+    
+    <header class="header" role="banner" id="top">
         <div class="grid grid-middle">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 gutter">    
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 gutter">  
         <h1 class="title">Mars</h1>
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">    
-        <nav>
+        <nav role="navigation" id="nav">>
             <ul class="nav padding-top push-none">
                 <li><a href="planet.html" class="island">Planet</a></li>
                 <li><a href="moons.html" class="island">Moons</a></li>
@@ -28,34 +33,36 @@
         </div>
     </header>
     
-    <h1 class="title2">Moons</h1>
+    <main role="main" id="main" gutter>
+        <h1 class="title2">Moons</h1>
     
-    <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
-                    <img src="images/marsmoon1.jpg">
-                </div>
-                    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">   
-                        <h2>Mars moon 1</h2>
-                            <p>Phobos is a bit larger than Deimos, and orbits only 6,000 km (3,700 miles) above the Martian surface. No known moon orbits closer to its planet.</p>
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <div class="grid">
+                    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
+                        <img src="images/marsmoon1.jpg">
                     </div>
+                        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">   
+                            <h2>Mars moon 1</h2>
+                                <p>Phobos is a bit larger than Deimos, and orbits only 6,000 km (3,700 miles) above the Martian surface. No known moon orbits closer to its planet.</p>
+                        </div>
+                    </div>
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+
+                    <dl class="list">
+                        <dt class="micro">Diameter (km)</dt>
+                        <dd class="milli">12.6 km (7.8 mi)</dd>
+
+                        <dt class="micro">Mass (kg)</dt>
+                        <dd class="milli">2×1015</dd>
+
+                        <dt class="micro">Orbital
+    period (h)</dt>
+                        <dd class="milli">30.35</dd>
+                    </dl>
                 </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-            
-                <dl class="list">
-                    <dt class="micro">Diameter (km)</dt>
-                    <dd class="milli">12.6 km (7.8 mi)</dd>
-
-                    <dt class="micro">Mass (kg)</dt>
-                    <dd class="milli">2×1015</dd>
-
-                    <dt class="micro">Orbital
-period (h)</dt>
-                    <dd class="milli">30.35</dd>
-                </dl>
-            </div>
         </div>
+    </main>
 
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <div class="grid">
@@ -97,8 +104,8 @@ period (h)</dt>
 
         <footer class="footer gutter-half pad-top">
             <div class="grid footer grid-middle">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">    
-                    <h1 class="copyright milli">©2014 Mars Planetary Consortium</h1>
+                <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">    
+                    <h1 class="copyright milli">©2014 Mars Planetary Consortium<a href="#top">Top</a></h1>
                 </div>
                     <div class="unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4 pad-top">    
                     <nav>
