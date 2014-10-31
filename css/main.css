@@ -140,6 +140,56 @@ a {
     background-color: #efefef;
 }
 
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+.form {
+    padding: 2em;
+    background-color: #e2e2e2;
+}
+
+fieldset {
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sign {
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonbox {
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+}
+
+.age,
+.email,
+.name {
+    width: 100%;
+    border-style: none;
+    font-size: 1.5em;
+}
+
+textarea {
+    height: 10em;
+    border-style: none;
+    width: 100%;
+}
+
+.style {
+    text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
     
     nav li {
