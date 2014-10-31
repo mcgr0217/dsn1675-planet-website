@@ -30,12 +30,12 @@
     
     <h1 class="banner peta">Exploration</h1>
     
-    <div class="form">
+    <div class="form island">
         <div class="style">
         <h2>Join Mar's Exploration Team</h2> 
         <p>Are you interested in exploring Venus with a group of people? <em>Sign up below!</em></p>
         </div>
-    
+    <form>
         <div>
             <label for="name">Name</label>
             <input class="name" id="name">
@@ -54,12 +54,19 @@
             
         <fieldset>
         <legend class="pad-t"><em>Your level of awesomeness:</em></legend>
-            <input type="radio" id="not" name="awesomeness">
-             <label for="meh">Meh...</label>
-             <input type="radio" id="kinda" name="awesomeness">
-             <label for="good">Pretty good.</label>
+            
+            <span class="radio">
+                <input type="radio" id="not" name="awesomeness">
+                <label for="meh">Meh...</label>
+            </span>
+            <span class="radio"> 
+                <input type="radio" id="kinda" name="awesomeness">
+                <label for="good">Pretty good.</label>
+            </span>
+            <span class="radio">
              <input type="radio" id="lots" name="awesomeness">
              <label for="super">Super!</label>
+            </span>
         </fieldset>
         
         <div> 
@@ -70,6 +77,7 @@
         <div class="buttonbox">
             <button class="sign" type="sign">Sign up!</button>
         </div>
+        </form>
     </div> 
     
     

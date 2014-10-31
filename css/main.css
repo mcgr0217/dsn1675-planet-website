@@ -146,9 +146,15 @@ label {
 
 input + label {
     display: inline-block;
+    border-color: #e2e2e2;
 }
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+}
+
 .form {
-    padding: 2em;
     background-color: #e2e2e2;
 }
 
@@ -164,30 +170,35 @@ fieldset {
 }
 
 .buttonbox {
-    background-color: white;
     text-align: center;
 }
 
 button {
     background-color: white;
+    font-size: 0.8em;
+    border: 0.5em;
+    border-color: #d0d0d0;
 }
 
 .age,
 .email,
 .name {
     width: 100%;
-    border-style: none;
     font-size: 1.5em;
 }
 
 textarea {
     height: 10em;
-    border-style: none;
+    border-color: #d0d0d0;
     width: 100%;
 }
 
 .style {
     text-align: center;
+}
+
+.radio {
+    white-space: nowrap;
 }
 
 @media only screen and (min-width: 25em) {
@@ -223,6 +234,7 @@ textarea {
     .copyright {
         text-align: left;
     }
+    
 }
 
 @media only screen and (min-width: 60em) {
@@ -241,4 +253,5 @@ textarea {
             margin: 0;
             padding: 0;
         }
+        
 }
