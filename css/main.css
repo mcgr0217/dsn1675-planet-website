@@ -8,8 +8,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    font: normal 100%/1.5 sans-serif;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -95,12 +93,22 @@ img {
     list-style: none;
 }
 
-.nav a {
-    display: inline-block;
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #0074D9;
+    text-decoration: none;  
 }
 
-a {
-    text-decoration: none;
+.nav a:hover,
+.nav a:focus,
+.nav a:active 
+.nav .navcurrent,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #0074D9;
+    color: #fff;
 }
 
 .copyright {
@@ -254,4 +262,8 @@ textarea {
             padding: 0;
         }
         
+}
+
+h1, h2, h3. h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
 }
