@@ -14,11 +14,6 @@ html {
     text-size-adjust: 100%;
 }
 
-a:focus {
-    outline: 3px solid #943221;
-    outline: dotted;
-}
-
 .skip-links {
     margin: 0;
     padding: 0;
@@ -28,7 +23,7 @@ a:focus {
 .skip-links a {
     position: absolute;
     top: -3em;
-    background-color: red;
+    background-color: #50EBEC;
     color: beige;
     padding: 0.5em 0.75em;
     font-weight: 1.25em;
@@ -70,6 +65,7 @@ a:focus {
 body {
     margin: 0;
     padding: 0;
+    background-color: #F0FFFF;
 }
 
 img {
@@ -78,7 +74,7 @@ img {
 }
 
 .header {
-    background-color: #CCC;
+    background-color: #50EBEC;
     overflow: hidden;
 }
 
@@ -107,45 +103,46 @@ img {
 .nav .navcurrent,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #0074D9;
+    background-color: #93FFE8;
     color: #fff;
+    outline: 1px dotted #000;
 }
 
 .copyright {
-    background-color: #ccc;
+    background-color: #50EBEC;
     font-weight: 400;
 }
 
 .moon {
-    background-color: #efefef;
+    background-color: #F0F8FF;
 }
 
 .discovery {
-    background-color: #efefef;
+    background-color: #EBF4FA;
 }
 
 .banner {
-    background-color: #E2E2E2;
+    background-color: #7FFFD4;
     text-align: center;
     font-weight: 500;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #50EBEC;
     font-weight: 400;
 }
 
 .color {
-    background-color: #e2e2e2;
+    background-color: #bfe;
 }
 
 .light {
-    background-color: #efefef;
+    background-color: #F0F8FF;
 }
 
 .title2 {
     text-align: center;
-    background-color: #efefef;
+    background-color: #EBF4FA;
 }
 
 label {
@@ -163,7 +160,7 @@ form {
 }
 
 .form {
-    background-color: #e2e2e2;
+    background-color: #bfe;
 }
 
 fieldset {
@@ -193,12 +190,14 @@ button {
 .name {
     width: 100%;
     font-size: 1.5em;
+    background-color: white;
 }
 
 textarea {
     height: 10em;
     border-color: #d0d0d0;
     width: 100%;
+    background-color: white;
 }
 
 .style {
@@ -262,8 +261,4 @@ textarea {
             padding: 0;
         }
         
-}
-
-h1, h2, h3. h4, h5, h6 {
-    font-family: "Open Sans", sans-serif;
 }
